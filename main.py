@@ -8,6 +8,9 @@ BLACK = (0,0,0)
 WHITE = (255,255,255)
  
 size = (700, 500)
+pygame_icon = pygame.image.load('res/icon.png')
+pygame.display.set_icon(pygame_icon)
+
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption("Pong")
  
